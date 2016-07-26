@@ -32,8 +32,25 @@
     LJ's SHIT HERE!
 /******************************************/
 
+.meetup {
+  max-width: 440px;
+}
+
 .logo-small-sidebar {
   max-width: 200px;
+}
+
+.logo-front-page {
+  max-width:300px
+  /*background-image: url('image/shecounts_03.png');*/
+}
+
+.full {
+    background: url('background-image-with-logo.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
 }
 
 /******************************************
@@ -999,7 +1016,7 @@ blockquote cite {
 .breadcrumb a,
 .breadcrumb > li + li::before,
 .breadcrumb > .active {
-    color: #ffffff !important;
+    color: #000 !important;
 }
 
 .breadcrumb > li {
@@ -1009,7 +1026,8 @@ blockquote cite {
 }
 
 .section.cb {
-    background-color: #222222;
+    /*background-color: #222222;*/
+    background-image: url(images/background-white.jpg);
 }
 
 .breadcrumb {
@@ -1570,7 +1588,7 @@ blockquote cite {
     MISC
 /******************************************/
 
-#overlay {
+/*#overlay {
     background: rgba(59, 61, 66, 0.3) url(images/pattern.png);
     bottom: 0;
     height: 100%;
@@ -1578,7 +1596,7 @@ blockquote cite {
     padding: 0;
     position: fixed;
     right: 0;
-}
+}*/
 
 .pagination-wrapper {
     margin-top: 20px;
@@ -1623,7 +1641,7 @@ blockquote cite {
 /******************************************/
 
 body.comingsoon {
-    background: url(https://images.unsplash.com/photo-1437913135140-944c1ee62782?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=11e7f5af5f89af8f0df3b1a07956a4a6) no-repeat center center fixed;
+    background: url('background-image-with-logo.jpg') no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
